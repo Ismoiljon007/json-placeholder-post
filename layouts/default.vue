@@ -6,12 +6,12 @@
       data-tooltip-target="tooltip-toggle"
       type="button"
       @click="toggleColorModa()"
-      class="text-gray-500 inline-flex items-center fixed top-3 right-3 justify-center dark:text-gray-400 bg-gray-100 w-10 h-10 dark:bg-gray-700 focus:outline-none ring-4 ring-gray-200 dark:ring-gray-700 rounded-lg text-sm p-2.5"
+      class="text-gray-500 inline-flex items-center fixed top-3 right-3 justify-center dark:text-gray-400 bg-gray-100 w-8 h-8 dark:bg-gray-700 focus:outline-none ring-4 ring-gray-200 dark:ring-gray-700 rounded-lg text-sm p-2.5"
     >
       <svg
         v-if="colorMode.value == 'dark'"
         id="theme-toggle-dark-icon"
-        class="w-4 h-4 dark:text-white"
+        class="w-3 h-3 dark:text-white"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"
@@ -25,7 +25,7 @@
       <svg
         v-if="colorMode.value == 'light'"
         id="theme-toggle-light-icon"
-        class="w-4 h-4"
+        class="w-3 h-3"
         aria-hidden="true"
         xmlns="http://www.w3.org/2000/svg"
         fill="currentColor"

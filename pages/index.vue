@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div class="container mx-auto py-8">
+    <div class="container mx-auto py-16">
       <div class="flex items-center justify-between">
         <h2
           class="mb-8 text-3xl font-bold tracking-wide leading-none tracking-tight text-gray-900 md:text-4xl dark:text-white"
